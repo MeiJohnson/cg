@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/fpc" Date="1507031793"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq -Fi/home/vasya/Документы/Github/cg/lazarus/labDrawTriang/lib/x86_64-linux -Fu/usr/share/lazarus/2.0.4/lcl/units/x86_64-linux/gtk2 -Fu/usr/share/lazarus/2.0.4/lcl/units/x86_64-linux -Fu/usr/share/lazarus/2.0.4/components/lazutils/lib/x86_64-linux -Fu/usr/share/lazarus/2.0.4/packager/units/x86_64-linux -Fu/home/vasya/Документы/Github/cg/lazarus/labDrawTriang/ -FU/home/vasya/Документы/Github/cg/lazarus/labDrawTriang/lib/x86_64-linux/ -FE/home/vasya/Документы/Github/cg/lazarus/labDrawTriang/ -o/home/vasya/Документы/Github/cg/lazarus/labDrawTriang/project1 -dLCL -dLCLgtk2 project1.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

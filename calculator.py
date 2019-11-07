@@ -21,7 +21,6 @@ class CalcApp(QtWidgets.QMainWindow, lab1.Ui_MainWindow):
             arg1 = int(self.lineEdit.text())
             arg2 = int(self.lineEdit_2.text())
             # складываем два аргумента и испускаем сигнал
-
             self.lineEdit_3.setText(str(arg1 + arg2)) # Выводим результат функции в текстовое поле
         """
         # слот для вычитания двух чисел

@@ -33,10 +33,12 @@ class MainWindow(QWidget):
         qp.end()
 
     def drawTriangle(self, event, qp, pth):
+        qp.setPen(Qt.black)
+        qp.drawLine(10, 25, 35, 10)
+        qp.setPen(Qt.red)
+        qp.drawLine(35, 10, 100, 100)
         qp.setPen(Qt.blue)
-        pth.drawLine(50, 400)
-        pth.lineTo(350, 100)
-        pth.lineTo(10, 25)
+        qp.drawLine(10, 25, 100, 100)
         qp.drawPath(pth)
 
 

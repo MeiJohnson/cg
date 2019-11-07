@@ -16,6 +16,7 @@ class Ui_MainWindow(object):
         MainWindow.resize(303, 136)
         MainWindow.setMinimumSize(QtCore.QSize(50, 50))
         MainWindow.setMaximumSize(QtCore.QSize(303, 136))
+
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
@@ -39,6 +40,7 @@ class Ui_MainWindow(object):
         self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit.setMaximumSize(QtCore.QSize(30, 30))
         self.textEdit.setObjectName("textEdit")
+        self.lineEdit_3.setReadOnly(True)
         self.gridLayout.addWidget(self.textEdit, 0, 2, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
 
