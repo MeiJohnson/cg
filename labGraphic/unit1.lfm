@@ -1,0 +1,102 @@
+object Form1: TForm1
+  Left = -8
+  Height = 318
+  Top = 689
+  Width = 550
+  Caption = 'Form1'
+  ClientHeight = 318
+  ClientWidth = 550
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 24
+    Height = 250
+    Top = 24
+    Width = 300
+  end
+  object LabeledEdit1: TLabeledEdit
+    Left = 359
+    Height = 23
+    Top = 44
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 80
+    EditLabel.Caption = 'A'
+    EditLabel.ParentColor = False
+    TabOrder = 0
+  end
+  object LabeledEdit2: TLabeledEdit
+    Left = 360
+    Height = 23
+    Top = 96
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 80
+    EditLabel.Caption = 'B'
+    EditLabel.ParentColor = False
+    TabOrder = 1
+  end
+  object LabeledEdit3: TLabeledEdit
+    Left = 360
+    Height = 23
+    Top = 144
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 80
+    EditLabel.Caption = 'C'
+    EditLabel.ParentColor = False
+    TabOrder = 2
+  end
+  object LabeledEdit4: TLabeledEdit
+    Left = 360
+    Height = 23
+    Top = 192
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 80
+    EditLabel.Caption = 'Xmin'
+    EditLabel.ParentColor = False
+    TabOrder = 3
+  end
+  object LabeledEdit5: TLabeledEdit
+    Left = 456
+    Height = 23
+    Top = 192
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 80
+    EditLabel.Caption = 'Xmax'
+    EditLabel.ParentColor = False
+    TabOrder = 4
+  end
+  object LabeledEdit6: TLabeledEdit
+    Left = 360
+    Height = 23
+    Top = 240
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 80
+    EditLabel.Caption = 'Ymin'
+    EditLabel.ParentColor = False
+    TabOrder = 5
+  end
+  object LabeledEdit7: TLabeledEdit
+    Left = 456
+    Height = 23
+    Top = 240
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 80
+    EditLabel.Caption = 'Ymax'
+    EditLabel.ParentColor = False
+    TabOrder = 6
+  end
+  object Button1: TButton
+    Left = 408
+    Height = 25
+    Top = 280
+    Width = 75
+    Caption = 'Построить'
+    OnClick = Button1Click
+    TabOrder = 7
+  end
+end

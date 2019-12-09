@@ -1,0 +1,70 @@
+object Form1: TForm1
+  Left = 262
+  Height = 154
+  Top = 297
+  Width = 186
+  Caption = 'Цвета'
+  ClientHeight = 154
+  ClientWidth = 186
+  LCLVersion = '2.0.6.0'
+  object Edit1: TEdit
+    Left = 64
+    Height = 23
+    Top = 16
+    Width = 80
+    OnClick = Label1Click
+    TabOrder = 0
+    Text = 'Номер'
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 16
+    Width = 26
+    Caption = 'Цвет'
+    Color = clYellow
+    ParentColor = False
+    Transparent = False
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 15
+    Top = 56
+    Width = 26
+    Caption = 'Цвет'
+    Color = clFuchsia
+    ParentColor = False
+    Transparent = False
+    OnClick = Label2Click
+  end
+  object Edit2: TEdit
+    Left = 64
+    Height = 23
+    Top = 56
+    Width = 80
+    OnClick = Label1Click
+    TabOrder = 1
+    Text = 'Номер'
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 15
+    Top = 96
+    Width = 26
+    Caption = 'Цвет'
+    Color = clAqua
+    ParentColor = False
+    Transparent = False
+    OnClick = Label3Click
+  end
+  object Edit3: TEdit
+    Left = 64
+    Height = 23
+    Top = 96
+    Width = 80
+    OnClick = Label1Click
+    TabOrder = 2
+    Text = 'Номер'
+  end
+end

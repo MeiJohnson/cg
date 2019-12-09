@@ -1,0 +1,36 @@
+object Form1: TForm1
+  Left = 334
+  Height = 425
+  Top = 155
+  Width = 412
+  Caption = 'Form1'
+  ClientHeight = 425
+  ClientWidth = 412
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 56
+    Height = 300
+    Top = 16
+    Width = 300
+  end
+  object LabeledEdit1: TLabeledEdit
+    Left = 56
+    Height = 23
+    Top = 344
+    Width = 80
+    EditLabel.Height = 15
+    EditLabel.Width = 80
+    EditLabel.Caption = 'Угол поворота'
+    EditLabel.ParentColor = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 152
+    Height = 39
+    Top = 328
+    Width = 200
+    Caption = 'Нарисовать'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+end

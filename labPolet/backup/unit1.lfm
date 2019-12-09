@@ -1,0 +1,60 @@
+object Form1: TForm1
+  Left = 286
+  Height = 330
+  Top = 483
+  Width = 650
+  Caption = 'Form1'
+  ClientHeight = 330
+  ClientWidth = 650
+  DoubleBuffered = True
+  ParentDoubleBuffered = False
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 32
+    Height = 230
+    Top = 21
+    Width = 580
+  end
+  object LabeledEdit1: TLabeledEdit
+    Left = 32
+    Height = 23
+    Top = 288
+    Width = 128
+    EditLabel.Height = 15
+    EditLabel.Width = 128
+    EditLabel.Caption = 'Начальная скорость'
+    EditLabel.ParentColor = False
+    TabOrder = 0
+  end
+  object LabeledEdit2: TLabeledEdit
+    Left = 184
+    Height = 23
+    Top = 288
+    Width = 128
+    EditLabel.Height = 15
+    EditLabel.Width = 128
+    EditLabel.Caption = 'Шаг построения'
+    EditLabel.ParentColor = False
+    TabOrder = 1
+  end
+  object LabeledEdit3: TLabeledEdit
+    Left = 336
+    Height = 23
+    Top = 288
+    Width = 128
+    EditLabel.Height = 15
+    EditLabel.Width = 128
+    EditLabel.Caption = 'Угол полета'
+    EditLabel.ParentColor = False
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 504
+    Height = 25
+    Top = 286
+    Width = 109
+    Caption = 'Построить'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+end
